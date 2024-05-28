@@ -1,0 +1,96 @@
+﻿body {
+    background-color: rgb(239, 221, 221);
+    
+}
+
+.container body {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.icon {
+    height: 100px;
+    background: black;
+}
+
+.logo1 {
+    padding-left: 5%;
+    float: left;
+
+}
+
+.logo2 {
+    padding-right: 5%;
+    float: right;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    margin-top: auto
+}
+
+.child1 {
+    height: auto;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.child2 {
+    width: 45%;
+    background-image: url('super sale.jpg');
+    margin-top: 2%;
+
+    background-size: cover;
+    object-fit:fill;
+    
+}
+
+.title {
+    font-size: xx-large;
+    font-weight:bold;
+}
+
+.itemslist {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: antiquewhite;
+    border-color: black;
+    border-style: dotted;
+    padding-top: 5%;
+    margin-top: 10%;
+    padding-bottom: 5%;
+}
+
+.item {
+    text-align: left;
+    font-style: bold;
+    font-weight: 800;
+    font-size: larger;
+}
+
+.title {
+    background-color: dimgray;
+    color: azure;
+}
+
+.para {
+    padding-top: 6%;
+    text-decoration: underline;
+}
+.table{
+    align-items:center;
+    border-color:black;
+    border-style:solid;
+}
+.form-horizontal {
+    align-items: center;
+    border-color: black;
+   
+}

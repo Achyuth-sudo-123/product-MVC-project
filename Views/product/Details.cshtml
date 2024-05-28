@@ -1,0 +1,50 @@
+﻿@model productMVCproject.Models.productTable
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>productTable</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.BrandTable.Brand)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BrandTable.Brand)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CategoriTable.Catogori)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CategoriTable.Catogori)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.quentity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.quentity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.price)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
